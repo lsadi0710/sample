@@ -4,7 +4,7 @@ const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const pad = (s, n) => String(s).padEnd(n);
 
-const hosts = ['api-111', 'api-02', 'web-01', 'web-02', 'db-master', 'db-replica', 'cache-01', 'worker-01', 'worker-02', 'gateway'];
+const hosts = ['api-101', 'api-02', 'web-01', 'web-02', 'db-master', 'db-replica', 'cache-01', 'worker-01', 'worker-02', 'gateway'];
 const regions = ['ap-northeast-2', 'us-east-1', 'eu-west-1', 'ap-southeast-1'];
 const statuses = ['RUNNING', 'RUNNING', 'RUNNING', 'DEGRADED', 'RESTARTING'];
 const versions = ['v2.14.3', 'v2.14.4', 'v2.15.0', 'v2.15.1-rc1'];
